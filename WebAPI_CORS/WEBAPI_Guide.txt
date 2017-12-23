@@ -1,0 +1,13 @@
+1. Visual Studio - Click New - Project - ASP.Net Web Applcaton - Select Epty Project - Click Ok
+2. Click View Menu - Other windows - click Package Manager Console
+3. Install-Package Microsoft.AspNet.WebApi  - press enter
+4. Install-Package Microsoft.AspNet.WebApi.Cors -  to enable the CORS
+5. Add a Global.aspx
+6. Add Routing code to Global.aspx file with in Application_Start method as well as CORS enable code
+7. Create folder - Controller, DLL, Entity
+8. Add Controller to Controller Folder WebAPI 2 Controller
+9. Decorate the Controller with CORSEnabled Code - and in origin mention the URL from where we need to consume it.
+9. Publish it to on AZURE Web App
+10. get the Web App URL (Eg: abhisheksamolewebapi.azurewebsites.net)
+11. Check with the URL https://abhisheksamolewebapi.azurewebsites.net/customer (Customer is the Controller Name)
+
