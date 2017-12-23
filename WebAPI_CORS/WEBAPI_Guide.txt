@@ -11,3 +11,6 @@
 10. get the Web App URL (Eg: abhisheksamolewebapi.azurewebsites.net)
 11. Check with the URL https://abhisheksamolewebapi.azurewebsites.net/customer (Customer is the Controller Name)
 
+
+Reference - https://docs.microsoft.com/en-us/aspnet/web-api/overview/security/enabling-cross-origin-requests-in-web-api
+
